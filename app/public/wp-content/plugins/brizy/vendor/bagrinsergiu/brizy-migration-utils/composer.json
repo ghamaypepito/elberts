@@ -1,0 +1,25 @@
+{
+  "name": "bagrinsergiu/brizy-migration-utils",
+  "description": "Data migration utils",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alex Zaharia",
+      "email": "alecszaharia@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "8.2.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "Brizy": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  }
+}

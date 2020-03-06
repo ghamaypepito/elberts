@@ -1,0 +1,697 @@
+[
+    {
+        "name": "activecampaign/api-php",
+        "version": "v2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ActiveCampaign/activecampaign-api-php.git",
+            "reference": "2bf5b72ba8668de8dcb27e194948028276e748c5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ActiveCampaign/activecampaign-api-php/zipball/2bf5b72ba8668de8dcb27e194948028276e748c5",
+            "reference": "2bf5b72ba8668de8dcb27e194948028276e748c5",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2017-04-26T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "includes/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Official PHP wrapper for the ActiveCampaign API.",
+        "homepage": "https://github.com/ActiveCampaign/activecampaign-api-php",
+        "keywords": [
+            "Forms",
+            "activecampaign",
+            "automation",
+            "email-marketing",
+            "emails",
+            "marketing-automation",
+            "newsletter",
+            "subscribe"
+        ]
+    },
+    {
+        "name": "bagrinsergiu/Brizy-Forms-SDK",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bagrinsergiu/Brizy-Forms-SDK.git",
+            "reference": "d96c8670e4c1971124cc295953a4c6e30f35b18e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bagrinsergiu/Brizy-Forms-SDK/zipball/d96c8670e4c1971124cc295953a4c6e30f35b18e",
+            "reference": "d96c8670e4c1971124cc295953a4c6e30f35b18e",
+            "shasum": ""
+        },
+        "require": {
+            "activecampaign/api-php": "2.0.*",
+            "campaignmonitor/createsend-php": "dev-master",
+            "drewm/drip": "0.8.*",
+            "drewm/mailchimp-api": "~2.2",
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "getresponse/getresponse": "dev-master",
+            "guzzlehttp/guzzle": "6.3.*",
+            "php": ">=5.5",
+            "psr/log": "^1.0.0",
+            "sendinblue/api-v3-sdk": "~5.0"
+        },
+        "require-dev": {
+            "ext-dom": "*",
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2019-10-24T13:44:33+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "BrizyForms": "lib/"
+            }
+        },
+        "description": "Brizy form's PHP SDK",
+        "keywords": [
+            "brizy",
+            "forms"
+        ],
+        "support": {
+            "source": "https://github.com/bagrinsergiu/Brizy-Forms-SDK/tree/1.0.7",
+            "issues": "https://github.com/bagrinsergiu/Brizy-Forms-SDK/issues"
+        }
+    },
+    {
+        "name": "campaignmonitor/createsend-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/campaignmonitor/createsend-php.git",
+            "reference": "46d85e4615fdf92b5773092f97222f8d61185255"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/campaignmonitor/createsend-php/zipball/46d85e4615fdf92b5773092f97222f8d61185255",
+            "reference": "46d85e4615fdf92b5773092f97222f8d61185255",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "simpletest/simpletest": "~1.1.3"
+        },
+        "time": "2019-09-04T01:05:43+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "csrest_administrators.php",
+                "csrest_campaigns.php",
+                "csrest_clients.php",
+                "csrest_general.php",
+                "csrest_events.php",
+                "csrest_lists.php",
+                "csrest_people.php",
+                "csrest_segments.php",
+                "csrest_subscribers.php",
+                "csrest_templates.php",
+                "csrest_transactional_classicemail.php",
+                "csrest_transactional_smartemail.php",
+                "csrest_transactional_timeline.php",
+                "csrest_journeys.php",
+                "csrest_journey_emails.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Toby Brain",
+                "email": "tobio85@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A php library which implements the complete functionality of the Campaign Monitor API.",
+        "homepage": "http://campaignmonitor.github.io/createsend-php/",
+        "keywords": [
+            "api",
+            "campaign",
+            "monitor"
+        ]
+    },
+    {
+        "name": "drewm/drip",
+        "version": "v0.8",
+        "version_normalized": "0.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/drewm/drip.git",
+            "reference": "2f5ebe46dbf82fe16186b8f488ec47a0dd672e37"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/drewm/drip/zipball/2f5ebe46dbf82fe16186b8f488ec47a0dd672e37",
+            "reference": "2f5ebe46dbf82fe16186b8f488ec47a0dd672e37",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2018-03-27T13:12:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DrewM\\Drip\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Drew McLellan",
+                "email": "drew.mclellan@gmail.com"
+            }
+        ],
+        "description": "PHP library for interacting with the Drip API",
+        "keywords": [
+            "drip"
+        ]
+    },
+    {
+        "name": "drewm/mailchimp-api",
+        "version": "v2.5.4",
+        "version_normalized": "2.5.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/drewm/mailchimp-api.git",
+            "reference": "c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a",
+            "reference": "c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "7.0.*",
+            "vlucas/phpdotenv": "^2.0"
+        },
+        "time": "2019-08-06T09:24:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DrewM\\MailChimp\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Drew McLellan",
+                "email": "drew.mclellan@gmail.com",
+                "homepage": "http://allinthehead.com/"
+            }
+        ],
+        "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+        "homepage": "https://github.com/drewm/mailchimp-api"
+    },
+    {
+        "name": "getresponse/getresponse",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GetResponse/getresponse-api-php.git",
+            "reference": "58f13c201902153b0d48a3111470e1062daa3d48"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GetResponse/getresponse-api-php/zipball/58f13c201902153b0d48a3111470e1062daa3d48",
+            "reference": "58f13c201902153b0d48a3111470e1062daa3d48",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2019-06-07T06:23:22+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/GetResponseAPI3.class.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Pawel Maslak",
+                "email": "pawel.maslak@getresponse.com"
+            },
+            {
+                "name": "Grzegorz Struczynski",
+                "email": "grzegorz.struczynski@getresponse.com"
+            }
+        ],
+        "description": "GetResponse API v3 client library.",
+        "homepage": "https://github.com/GetResponse/getresponse-api-php",
+        "keywords": [
+            "api",
+            "email",
+            "getresponse"
+        ],
+        "abandoned": "getresponse/sdk-php"
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "708835738383a3cc09ba00c77d43732940ba1380"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/708835738383a3cc09ba00c77d43732940ba1380",
+            "reference": "708835738383a3cc09ba00c77d43732940ba1380",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.6.1",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+            "psr/log": "^1.1"
+        },
+        "suggest": {
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2019-10-24T12:55:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.3-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "17d36ed176c998839582c739ce0753381598edf0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/17d36ed176c998839582c739ce0753381598edf0",
+            "reference": "17d36ed176c998839582c739ce0753381598edf0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7.27 || ^7.5"
+        },
+        "time": "2019-07-02T14:54:06+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.x-dev",
+        "version_normalized": "1.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "2595b33c1c924889b474d324f3d719fa40b6954e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/2595b33c1c924889b474d324f3d719fa40b6954e",
+            "reference": "2595b33c1c924889b474d324f3d719fa40b6954e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0",
+            "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "ext-zlib": "*",
+            "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+        },
+        "suggest": {
+            "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+        },
+        "time": "2019-08-13T16:05:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "psr-7",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+            "reference": "efd67d1dc14a7ef4fc4e518e7dee91c271d524e4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-08-29T13:16:46+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+            "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-11-21T13:42:00+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "ralouphie/getallheaders",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ralouphie/getallheaders.git",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^5 || ^6.5"
+        },
+        "time": "2019-03-08T08:55:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/getallheaders.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ralph Khattar",
+                "email": "ralph.khattar@gmail.com"
+            }
+        ],
+        "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "sendinblue/api-v3-sdk",
+        "version": "v5.0.1",
+        "version_normalized": "5.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sendinblue/APIv3-php-library.git",
+            "reference": "69c262ccb9cb5069b95e1bc8ba1b8e56a792f020"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sendinblue/APIv3-php-library/zipball/69c262ccb9cb5069b95e1bc8ba1b8e56a792f020",
+            "reference": "69c262ccb9cb5069b95e1bc8ba1b8e56a792f020",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~1.12",
+            "phpunit/phpunit": "~4.8",
+            "satooshi/php-coveralls": "~1.0",
+            "squizlabs/php_codesniffer": "~2.6"
+        },
+        "time": "2018-04-12T10:37:38+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SendinBlue\\Client\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "SendinBlue Developers",
+                "email": "contact@sendinblue.com",
+                "homepage": "https://www.sendinblue.com/"
+            }
+        ],
+        "description": "Official SendinBlue provided RESTFul API V3 php library",
+        "homepage": "https://github.com/sendinblue/APIv3-php-library",
+        "keywords": [
+            "api",
+            "php",
+            "sdk",
+            "sendinblue",
+            "swagger"
+        ]
+    }
+]

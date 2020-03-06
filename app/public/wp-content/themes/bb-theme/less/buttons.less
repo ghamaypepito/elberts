@@ -1,0 +1,55 @@
+/*
+
+WARNING! DO NOT EDIT THEME FILES IF YOU PLAN ON UPDATING!
+
+Theme files will be overwritten and your changes will be lost
+when updating. Instead, add custom code in the admin under
+Appearance > Theme Settings > Code or create a child theme.
+
+*/
+.fl-page,
+.fl-responsive-preview-content,
+.fl-button-lightbox-content {
+	button,
+	button:visited,
+	input[type=button],
+	input[type=submit],
+	a.fl-button,
+	a.fl-button:visited,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:visited {
+		.fl-button-inactive-styles();
+	}
+
+	button *,
+	button:visited *,
+	input[type=button] *,
+	input[type=submit] *,
+	a.fl-button *,
+	a.fl-button:visited *,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle *,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:visited * {
+		.fl-button-inactive-child-styles();
+	}
+
+	button:hover,
+	input[type=button]:hover,
+	input[type=submit]:hover,
+	a.fl-button:hover,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:hover {
+		.fl-button-hover-styles();
+	}
+
+	button:hover *,
+	input[type=button]:hover *,
+	input[type=submit]:hover *,
+	a.fl-button:hover *,
+	.fl-page-nav-toggle-button .fl-page-nav .navbar-toggle:hover * {
+		.fl-button-hover-child-styles();
+	}
+
+	.mejs-controls button,
+	.mejs-controls button:hover {
+		background-color: transparent;
+	}
+}

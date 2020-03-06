@@ -1,0 +1,134 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Brizy Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-01 13:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#: admin/license.php:130
+msgid "Activate"
+msgstr ""
+
+#: shortcode/breadcrumbs.php:62
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: shortcode/breadcrumbs.php:65
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#. Name of the plugin
+msgid "Brizy Pro"
+msgstr ""
+
+#: main.php:123
+#, php-format
+msgid "Brizy Pro %s requires Brizy FREE to be %s or newer"
+msgstr ""
+
+#. Author of the plugin
+msgid "Brizy.io"
+msgstr ""
+
+#: shortcode/breadcrumbs.php:68
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: admin/license.php:130
+msgid "Deactivate"
+msgstr ""
+
+#: admin/views/license.html.twig:6
+msgid "Dismiss this notice"
+msgstr ""
+
+#: main.php:234
+msgid "Dynamic content"
+msgstr ""
+
+#: admin/updater.php:330
+msgid "Error"
+msgstr ""
+
+#: shortcode/breadcrumbs.php:66
+msgid "Error 404"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extended functionality for the Brizy WordPress builder plugin."
+msgstr ""
+
+#: shortcode/breadcrumbs.php:61
+msgid "Home"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://brizy.io/"
+msgstr ""
+
+#: admin/integrations.php:39 admin/integrations.php:63
+msgid "Integrations"
+msgstr ""
+
+#: admin/license.php:92 admin/license.php:93
+msgid "License"
+msgstr ""
+
+#: admin/settings.php:21
+msgid "Limited Access"
+msgstr ""
+
+#: shortcode/breadcrumbs.php:67
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: shortcode/breadcrumbs.php:64
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: shortcode/breadcrumbs.php:63
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: admin/white-label.php:153 admin/white-label.php:168
+msgid "Settings saved."
+msgstr ""
+
+#: content/placeholders/excerpt.php:30
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: admin/white-label.php:208 admin/white-label.php:209
+msgid "White Label"
+msgstr ""
+
+#: admin/updater.php:330
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: shortcode/breadcrumbs.php:43
+msgid ""
+"You have no posts. Please add one after that come back here and refresh the "
+"page."
+msgstr ""
+
+#: admin/views/license.html.twig:23
+msgid "Your License Key"
+msgstr ""
