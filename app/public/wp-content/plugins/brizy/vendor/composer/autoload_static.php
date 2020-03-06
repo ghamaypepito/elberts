@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0587cf6be5c0227c649619ec65896cf4
+class ComposerStaticInit3d59c3ef977aebdaa70f8025df798695
 {
     public static $files = array (
         '8ec4222c68e580a23520eef4abe4380f' => __DIR__ . '/..' . '/shortpixel/shortpixel-php/lib/ShortPixel.php',
@@ -60,9 +60,9 @@ class ComposerStaticInit0587cf6be5c0227c649619ec65896cf4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0587cf6be5c0227c649619ec65896cf4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0587cf6be5c0227c649619ec65896cf4::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit0587cf6be5c0227c649619ec65896cf4::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3d59c3ef977aebdaa70f8025df798695::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3d59c3ef977aebdaa70f8025df798695::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit3d59c3ef977aebdaa70f8025df798695::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
